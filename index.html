@@ -11,8 +11,8 @@
     <form action="./greetings.html">
       <h1>🎅 Письмо Санте 🎄</h1>
       <p class="title">
-        Дорогой друг, не стесняйся и расскажи Санте о том, кто ты<br> и о том, что
-        ты хочешь получить на Рождество.
+        Дорогой друг, не стесняйся и расскажи Санте о том, кто ты<br />
+        и о том, что ты хочешь получить на Рождество.
       </p>
       <input
         class="inputs"
@@ -35,12 +35,19 @@
         id="name"
         placeholder="Имя"
       />
+      <input
+        class="inputs"
+        type="email"
+        placeholder="e-mail"
+        required
+        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+      />
       <p class="title-text">Пол:</p>
       <div class="radio">
         <label class="gender" for="girl">Девочка</label>
-        <input class="gender" type="radio" name="gender" id="gender"  />
+        <input class="gender" type="radio" name="gender" id="gender" />
         <label class="gender" for="boy">Мальчик</label>
-        <input class="gender" type="radio" name="gender" id="gender" checked/>
+        <input class="gender" type="radio" name="gender" id="gender" checked />
       </div>
       <div class="date">
         <label for="date" class="title-text">Дата рождения</label>
@@ -58,21 +65,18 @@
       <p class="title-text">Выбери цвет своей новой игрушки:</p>
       <div class="color">
         <label for="color">Шапочка:</label>
-        <input type="color" name="color" id="color" value="#FF0000">
+        <input type="color" name="color" id="color" value="#FF0000" />
         <label for="color">Костюм:</label>
-        <input type="color" name="color" id="color" value="#FFFF00">
+        <input type="color" name="color" id="color" value="#FFFF00" />
       </div>
       <p class="title-text">Ты был хорошим ребенком?</p>
       <div class="radio">
         <label class="gender" for="no">Нет</label>
-        <input class="gender" type="radio" name="isGood" id="no"  />
+        <input class="gender" type="radio" name="isGood" id="no" />
         <label class="gender" for="yes">Да</label>
-        <input class="gender" type="radio" name="isGood" id="yes" checked/>
+        <input class="gender" type="radio" name="isGood" id="yes" checked />
       </div>
       <button class="send-btn" type="submit">Отправить письмо Санте</button>
-
-
-
-      </form>
+    </form>
   </body>
 </html>
