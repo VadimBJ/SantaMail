@@ -1,0 +1,86 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: antiquewhite;
+  width: 100%;
+  font-size: 1.2em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: rgb(211, 210, 209);
+  width: 40%;
+  height: 800px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 5px #888888;
+  background-image: url(./pngwing.com.png);
+  background-repeat: no-repeat;
+  background-size: 35%;
+  background-position: 95% 95%;
+}
+
+.inputs {
+  width: 200px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 3px;
+  padding: 5px;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+h1 {
+  align-self: center;
+  color: red;
+  text-shadow: 2px 2px 2px #ffffff;
+}
+
+.title {
+  width: 90%;
+  align-self: center;
+  text-align: center;
+  line-height: 35px; 
+  font-size: 22px;
+  font-style: italic;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.radio {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-content: start;
+}
+
+.gender {
+  margin: -5px 3px;
+}
+
+.date {
+  margin-top: 20px;
+}
+
+.adress {
+  margin-top: 10px;
+}
+
+.color {
+  display: flex;
+  align-items: center;
+}
+
+#color {
+  margin: 0 3px;
+}
+
+.title-text{
+  font-weight: 600;
+  margin-top: 25px;
+}
+.send-btn{
+  margin: 40px 0;
+  width: 250px;
+  font-size: 1em;
+}
